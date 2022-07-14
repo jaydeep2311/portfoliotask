@@ -1,0 +1,46 @@
+.project-heading {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  color: #818080;
+}
+.gears {
+  width: 40px;
+  margin-left: 3px;
+}
+.challenge {
+  width: 292px;
+  height: 401px;
+}
+@media (max-width: 996px) {
+  .challenge {
+    width: 192px;
+    height: 301px;
+  }
+  .gears {
+    width: 40px;
+  }
+  .project-heading {
+    font-family: "Be Vietnam";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    margin-top: 10%;
+    color: #818080;
+  }
+}
+@media (max-width: 684px) {
+  .challenge {
+    margin-top: 5%;
+    width: 292px;
+    height: 401px;
+  }
+  .gears {
+    width: 30px;
+  }
+}

@@ -1,0 +1,42 @@
+.navbar-brand {
+  margin-right: 10%;
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 41px;
+}
+.gears {
+  width: 30px;
+  margin-left: 3px;
+}
+.navbox {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  padding: 1%;
+  display: none;
+}
+.icon > img {
+  width: 100%;
+}
+.nav-links > a:hover {
+  color: #e84949;
+}
+@media (max-width: 996px) {
+  .nav-links > a {
+    font-size: large;
+  }
+}
+@media (max-width: 724px) {
+  .nav-links {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+}

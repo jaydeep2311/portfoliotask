@@ -1,0 +1,82 @@
+.skill-heading {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+  text-align: left;
+  color: #818080;
+}
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.skill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 3%;
+}
+.humanImage {
+  width: 511px;
+  height: 426px;
+}
+@media (max-width: 996px) {
+  .skill-heading {
+    font-family: "Be Vietnam";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    text-align: left;
+    color: #818080;
+    margin-top: 5%;
+  }
+  .skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 5%;
+  }
+  .humanImage {
+    width: 411px;
+    height: 326px;
+    margin-left: 5%;
+  }
+  .skill-grid > img {
+    width: 80px;
+  }
+}
+@media (max-width: 684px) {
+  .skill-heading {
+    font-family: "Be Vietnam";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: left;
+    color: #818080;
+    margin-top: 5%;
+  }
+  .skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin-top: 5%;
+  }
+  .humanImage {
+    width: 311px;
+    height: 226px;
+  }
+  .skill-grid > img {
+    width: 100px;
+  }
+  .skill-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+}
